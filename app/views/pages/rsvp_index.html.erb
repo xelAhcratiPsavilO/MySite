@@ -9,8 +9,15 @@
     <a href='http://localhost:4000'><button>home</button></a>
     <% @rsvps.each do |rsvp| %>
 			<div class="rsvp">
-  			<p class="content"><%= rsvp.content %></p>
-  			<p class="time"><%= rsvp.created_at %></p>
+  			<p class="name"><%= rsvp.name %></p>
+  			<p class="surname"><%= rsvp.surname %></p>
+  			<p class="email"><%= rsvp.email %></p>
+  			<p class="attending"><%= rsvp.attending %></p>
+  			<p class="guests_number"><%= rsvp.guests_number %></p>
+  			<p class="compantions"><%= rsvp.compantions %></p>
+  			<p class="dietary_restrictions"><%= rsvp.dietary_restrictions %></p>
+  			<p class="other_dietary_restrictions"><%= rsvp.other_dietary_restrictions %></p>
+  			<p class="songs"><%= rsvp.songs %></p>
 			</div>
 		<% end %>
   </body>
