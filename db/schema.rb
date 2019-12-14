@@ -10,6 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20191214223209) do
+
+  create_table "rsvps", force: :cascade do |t|
+    t.string "name"
+    t.string "surname"
+    t.string "email"
+    t.string "attending"
+    t.integer "guests_number"
+    t.text "compantions"
+    t.string "dietary_restrictions"
+    t.text "other_dietary_restrictions"
+    t.text "songs"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
