@@ -35,6 +35,6 @@ class PagesController < ApplicationController
 
   private
   def rsvp_params
-    params.require(:rsvp).permit(:name).permit(:surname).permit(:email).permit(:attending).permit(:guests_number).permit(:compantions).permit(:dietary_restrictions).permit(:other_dietary_restrictions).permit(:songs)
+    params.require(:rsvp).permit(:name, :surname, :email, :attending, :guests_number, :compantions, :dietary_restrictions, :other_dietary_restrictions, :songs)
   end
 end

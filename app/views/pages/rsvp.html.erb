@@ -8,14 +8,33 @@
     <h1>this is the rsvp page</h1>
     <a href='http://localhost:4000'><button>home</button></a>
     <a href='http://localhost:4000/rsvp/index'><button>index</button></a>
+    <br>
+    <br>
     <%= form_for :rsvp, url: rsvp_path do |f| %>
       <div class="field">
-        <%= f.label :rsvp %><br>
-        <%= f.text_area :content %>
+        <%= f.label :name %><br>
+        <%= f.text_field :name %>
+        <%= f.text_field :surname %><br>
+        <%= f.label :email %><br>
+        <%= f.text_field :email %><br>
+        Are you attending?<br>
+        <%= f.select :attending, ['Gladly attend', 'Regretfully decline', 'Resentfully attend', 'Enthusiastically decline', 'Will decline to respond but ultimately attend'] %><br>
+        Number of guests<br>
+        <%= f.number_field :guests_number %><br>
+        Name of guests accompanying you<br>
+        <%= f.text_area :compantions %><br>
+        Do you have any allergies or dietary restrictions?<br>
+        <%= f.select :dietary_restrictions, ['Yes', 'No'] %><br>
+        If yes, please indicate here<br>
+        <%= f.text_field :other_dietary_restrictions %><br>
+        Song suggestions?<br>
+        <%= f.text_area :songs %><br>
+
       </div>
       <div class="actions">
-        <%= f.submit "Create" %>
+        <br><%= f.submit "Submit" %>
       </div>
     <% end %>
+
   </body>
 </html>
