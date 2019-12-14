@@ -7,11 +7,15 @@
   <body>
     <h1>this is the rsvp page</h1>
     <a href='http://localhost:4000'><button>home</button></a>
-    <% @rsvps.each do |rsvp| %>
-			<div class="rsvp">
-  			<p class="content"><%= rsvp.content %></p>
-  			<p class="time"><%= rsvp.created_at %></p> 
-			</div>
-		<% end %>
+    <a href='http://localhost:4000/rsvp/index'><button>index</button></a>
+    <%= form_for :rsvp, url: rsvp_path do |f| %>
+      <div class="field">
+        <%= f.label :rsvp %><br>
+        <%= f.text_area :content %>
+      </div>
+      <div class="actions">
+        <%= f.submit "Create" %>
+      </div>
+    <% end %>
   </body>
 </html>
