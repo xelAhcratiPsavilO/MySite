@@ -13,7 +13,7 @@ class PagesController < ApplicationController
   end
 
   def rsvp
-
+    @rsvps = Rsvp.all 
   end
 
   def video
