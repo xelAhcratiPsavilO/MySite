@@ -19,7 +19,7 @@ class PagesController < ApplicationController
   def create
     @rsvp = Rsvp.new(rsvp_params)
     if @rsvp.save
-      redirect_to action: 'rsvp_index'
+      redirect_to action: 'home'
     else
       render 'rsvp'
     end
