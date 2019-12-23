@@ -38,6 +38,7 @@
 
 #photo-section {
   text-align: center;
+  background: url(background.jpg) no-repeat;
   border-radius: 0;
   color: white;
 }
