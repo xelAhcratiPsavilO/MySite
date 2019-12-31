@@ -34,6 +34,7 @@
 }
 
 #greeting {
+    font-family: "Josefin Sans";
     height: 45%;
     width:100%;
     display:flex;
