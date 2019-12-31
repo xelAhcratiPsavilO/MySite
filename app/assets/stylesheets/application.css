@@ -13,12 +13,6 @@
  *= require_tree .
  *= require_self
  */
- body{
-     background-image: url('background.jpg');
-     background-attachment: fixed;
-     background-repeat: no-repeat;
-     background-size: cover;
- }
 
  a {
    color: white;
@@ -32,13 +26,23 @@
      text-decoration: none;
  }
 
- h1 {
-   color: white;
+ #greeting {
+   /* color: white;
+   vertical-align: middle;
+   height: 400px; */
+
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
  }
 
 #photo-section {
   text-align: center;
   background: url(background.jpg) no-repeat;
+  background-size: cover;
   border-radius: 0;
   color: white;
+  height: 900px;
 }
