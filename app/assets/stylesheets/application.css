@@ -33,7 +33,7 @@
 }
 
 #greeting {
-    height: 50%;
+    height: 45%;
     width:100%;
     display:flex;
     align-items: center;
@@ -42,4 +42,8 @@
 
  #date {
    color: #e5e5e5;
+       height: 50%;
+       display:flex;
+       align-items: center;
+       justify-content: center;
  }
