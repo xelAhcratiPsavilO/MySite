@@ -27,11 +27,7 @@
  }
 
  #greeting {
-   /* color: white;
-   vertical-align: middle;
-   height: 400px; */
-
-    height: 90%;
+    height: 50%;
     width:100%;
     display:flex;
     align-items: center;
@@ -44,5 +40,5 @@
   background-size: cover;
   border-radius: 0;
   color: white;
-  height: 900px;
+  height: 700px;
 }
