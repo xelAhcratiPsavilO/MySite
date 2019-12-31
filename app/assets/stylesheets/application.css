@@ -1,5 +1,10 @@
 @import "rsvp.css";
 
+@font-face {
+font-family: "BergenSans-Bold";
+src: url(./fonts/BergenSans-Bold.ttf);
+}
+
 .section {
    color: #e5e5e5;
    display: table;
@@ -34,7 +39,7 @@
 }
 
 #greeting {
-    font-family: "Josefin Sans";
+    font-family: "BergenSans-Bold";
     height: 45%;
     width:100%;
     display:flex;
