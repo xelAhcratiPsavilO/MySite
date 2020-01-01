@@ -1,72 +1,48 @@
 @font-face {
-    font-family: 'Bergen Sans';
-    src: url('BergenSans-BoldItalic.eot');
-    src: local('Bergen Sans Bold Italic'), local('BergenSans-BoldItalic'),
-        url('BergenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('BergenSans-BoldItalic.woff2') format('woff2'),
-        url('BergenSans-BoldItalic.woff') format('woff'),
-        url('BergenSans-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Bergen Sans';
-    src: url('BergenSans.eot');
-    src: local('Bergen Sans'), local('BergenSans'),
-        url('BergenSans.eot?#iefix') format('embedded-opentype'),
-        url('BergenSans.woff2') format('woff2'),
-        url('BergenSans.woff') format('woff'),
-        url('BergenSans.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Asket Narrow';
+    src: url('AsketNarrow-Light.eot');
+    src: local('Asket Narrow Light'), local('AsketNarrow-Light'),
+        url('AsketNarrow-Light.eot?#iefix') format('embedded-opentype'),
+        url('AsketNarrow-Light.woff2') format('woff2'),
+        url('AsketNarrow-Light.woff') format('woff'),
+        url('AsketNarrow-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Bergen Sans Semi';
-    src: url('BergenSans-SemiBoldItalic.eot');
-    src: local('Bergen Sans Semi Bold Italic'), local('BergenSans-SemiBoldItalic'),
-        url('BergenSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('BergenSans-SemiBoldItalic.woff2') format('woff2'),
-        url('BergenSans-SemiBoldItalic.woff') format('woff'),
-        url('BergenSans-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Bergen Sans';
-    src: url('BergenSans-Bold.eot');
-    src: local('Bergen Sans Bold'), local('BergenSans-Bold'),
-        url('BergenSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('BergenSans-Bold.woff2') format('woff2'),
-        url('BergenSans-Bold.woff') format('woff'),
-        url('BergenSans-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'Asket Condensed';
+    src: url('AsketCondensed-ExtraBold.eot');
+    src: local('Asket Condensed ExtraBold'), local('AsketCondensed-ExtraBold'),
+        url('AsketCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('AsketCondensed-ExtraBold.woff2') format('woff2'),
+        url('AsketCondensed-ExtraBold.woff') format('woff'),
+        url('AsketCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Bergen Sans';
-    src: url('BergenSans-Italic.eot');
-    src: local('Bergen Sans Italic'), local('BergenSans-Italic'),
-        url('BergenSans-Italic.eot?#iefix') format('embedded-opentype'),
-        url('BergenSans-Italic.woff2') format('woff2'),
-        url('BergenSans-Italic.woff') format('woff'),
-        url('BergenSans-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+    font-family: 'Asket';
+    src: url('Asket-ExtraBold.eot');
+    src: local('Asket ExtraBold'), local('Asket-ExtraBold'),
+        url('Asket-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Asket-ExtraBold.woff2') format('woff2'),
+        url('Asket-ExtraBold.woff') format('woff'),
+        url('Asket-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Bergen Sans Semi';
-    src: url('BergenSans-SemiBold.eot');
-    src: local('Bergen Sans Semi Bold'), local('BergenSans-SemiBold'),
-        url('BergenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('BergenSans-SemiBold.woff2') format('woff2'),
-        url('BergenSans-SemiBold.woff') format('woff'),
-        url('BergenSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+    font-family: 'Asket Extended';
+    src: url('AsketExtended-Light.eot');
+    src: local('Asket Extended Light'), local('AsketExtended-Light'),
+        url('AsketExtended-Light.eot?#iefix') format('embedded-opentype'),
+        url('AsketExtended-Light.woff2') format('woff2'),
+        url('AsketExtended-Light.woff') format('woff'),
+        url('AsketExtended-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 

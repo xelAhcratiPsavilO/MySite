@@ -1,19 +1,27 @@
 @import "rsvp.css";
 
 @font-face {
-font-family: "BergenSans-Bold";
-src: url(./fonts/BergenSans-Bold.ttf);
+  font-family: "BergenSans-Bold";
+  src: url(./fonts/BergenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "AsketExtended-Light";
+  src: url(./fonts/AsketExtended-Light.ttf);
 }
 
 .section {
-   color: #e5e5e5;
-   display: table;
-   margin: auto;
+  color: #e5e5e5;
+  display: table;
+  margin: auto;
  }
 
 .section:hover {
-     color: white;
-     text-decoration: none;
+  color: white;
+  text-decoration: none;
+ }
+
+ body {
+
  }
 
 #photo-section {
@@ -25,8 +33,13 @@ src: url(./fonts/BergenSans-Bold.ttf);
   height: 700px;
 }
 
+#filter {
+  background-color: rgba(204, 146, 134, 0.2);
+  height: 700px;
+}
+
 #navbar {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .names {
@@ -39,18 +52,19 @@ src: url(./fonts/BergenSans-Bold.ttf);
 }
 
 #greeting {
-    font-family: "BergenSans-Bold";
-    height: 45%;
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  font-family: "BergenSans-Bold";
+  height: 45%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
  }
 
  #date {
-   color: #e5e5e5;
-       height: 50%;
-       display:flex;
-       align-items: center;
-       justify-content: center;
+  font-family: "AsketExtended-Light";
+  color: #e5e5e5;
+  height: 10%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
  }
