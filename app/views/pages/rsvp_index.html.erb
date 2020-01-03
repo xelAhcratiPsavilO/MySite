@@ -8,15 +8,16 @@
     <h1>this is the rsvp page</h1>
     <% @rsvps.each do |rsvp| %>
 			<div class="rsvp">
-  			<p class="name"><%= rsvp.name %></p>
-  			<p class="surname"><%= rsvp.surname %></p>
-  			<p class="email"><%= rsvp.email %></p>
-  			<p class="attending"><%= rsvp.attending %></p>
-  			<p class="guests_number"><%= rsvp.guests_number %></p>
+        <p class="new_guest">-</p>
+  			<p class="name">Guest name: <%= rsvp.name %></p>
+  			<p class="surname">Guest surname: <%= rsvp.surname %></p>
+  			<p class="email">Guest email: <%= rsvp.email %></p>
+  			<p class="attending"><%= rsvp.name %> is <%= rsvp.attending %> attending</p>
+  			<p class="guests_number"><%= rsvp.name %> is coming with <%= rsvp.guests_number %></p>
   			<p class="compantions"><%= rsvp.compantions %></p>
-  			<p class="dietary_restrictions"><%= rsvp.dietary_restrictions %></p>
+  			<p class="dietary_restrictions">Dietary restrictions: <%= rsvp.dietary_restrictions %></p>
   			<p class="other_dietary_restrictions"><%= rsvp.other_dietary_restrictions %></p>
-  			<p class="songs"><%= rsvp.songs %></p>
+  			<p class="songs">Songs: <%= rsvp.songs %></p>
 			</div>
 		<% end %>
   </body>
