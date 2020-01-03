@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20191214223209) do
     t.string "email"
     t.string "attending"
     t.integer "guests_number"
-    t.text "compantions"
+    t.text "companions"
     t.string "dietary_restrictions"
     t.text "other_dietary_restrictions"
     t.text "songs"

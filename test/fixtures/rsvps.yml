@@ -6,7 +6,7 @@ one:
   email: MyString
   attending: MyString
   guests_number: 1
-  compantions: MyText
+  companions: MyText
   dietary_restrictions: MyString
   other_dietary_restrictions: MyText
   songs: MyText
@@ -17,7 +17,7 @@ two:
   email: MyString
   attending: MyString
   guests_number: 1
-  compantions: MyText
+  companions: MyText
   dietary_restrictions: MyString
   other_dietary_restrictions: MyText
   songs: MyText

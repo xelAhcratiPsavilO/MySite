@@ -6,7 +6,7 @@ class CreateRsvps < ActiveRecord::Migration[5.1]
       t.string :email
       t.string :attending
       t.integer :guests_number
-      t.text :compantions
+      t.text :companions
       t.string :dietary_restrictions
       t.text :other_dietary_restrictions
       t.text :songs
