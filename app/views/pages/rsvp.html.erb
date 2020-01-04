@@ -8,31 +8,43 @@
     <h1>this is the rsvp page</h1>
     <br>
     <br>
-    <%= form_for :rsvp, url: rsvp_path do |f| %>
-      <div class="rsvp-form">
-        <%= f.label :name %><br>
-        <%= f.text_field :name %>
-        <%= f.text_field :surname %><br>
-        <%= f.label :email %><br>
-        <%= f.text_field :email %><br>
-        Are you attending?<br>
-        <%= f.select :attending, ['Yes','No'] %><br>
-        Number of guests<br>
-        <%= f.number_field :guests_number %><br>
-        Name of guests accompanying you<br>
-        <%= f.text_area :companions %><br>
-        Do you have any allergies or dietary restrictions?<br>
-        <%= f.select :dietary_restrictions, ['Yes', 'No'] %><br>
-        If yes, please indicate here<br>
-        <%= f.text_field :other_dietary_restrictions %><br>
-        Song suggestions?<br>
-        <%= f.text_area :songs %><br>
-
-      </div>
-      <div class="actions">
-        <br><%= f.submit "Submit" %>
-      </div>
-    <% end %>
-
+    <div class="box">
+      <h2>RSVP</h2>
+        <%= form_for :rsvp, url: rsvp_path do |f| %>
+        <div class="inputBox">
+          <%= f.text_field :name, :required => true%>
+          <label>Name</label>
+        </div>
+        <div class="inputBox">
+          <%= f.text_field :surname, :required => true%><br>
+          <label>Surname</label>
+        </div>
+        <div class="inputBox">
+          <%= f.text_field :email, :required => true%><br>
+          <label>Email</label>
+        </div>
+        <div class="inputBox">
+          <select-label>Are you attending?</select-label>
+          <%= f.select :attending, ['Yes','No'], :required => true%><br><br>
+        </div>
+        <div class="inputBox">
+          <%= f.number_field :guests_number, :required => true%><br>
+          <label>Number of guests</label>
+        </div>
+        <div class="inputBox">
+        <select-label>Please, list the guests</select-label>
+          <%= f.text_area :companions, :required => true%><br><br>
+        </div>
+        <div class="inputBox">
+          <%= f.text_field :dietary_restrictions, :required => true%><br>
+          <label>Any allergies or food restrictions?</label>
+        </div>
+        <div class="inputBox">
+          <%= f.text_field :songs, :required => true%><br>
+          <label>Song suggestions for the DJ?</label>
+        </div>
+        <%= f.submit "Submit" %>
+        <% end %>
+    </div>
   </body>
 </html>
