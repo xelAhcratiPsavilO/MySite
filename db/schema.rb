@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 20191214223209) do
     t.integer "guests_number"
     t.text "companions"
     t.string "dietary_restrictions"
-    t.text "other_dietary_restrictions"
     t.text "songs"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

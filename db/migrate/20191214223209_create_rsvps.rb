@@ -8,9 +8,7 @@ class CreateRsvps < ActiveRecord::Migration[5.1]
       t.integer :guests_number
       t.text :companions
       t.string :dietary_restrictions
-      t.text :other_dietary_restrictions
       t.text :songs
-
       t.timestamps
     end
   end
