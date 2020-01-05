@@ -14,7 +14,6 @@ ActiveRecord::Schema.define(version: 20191214223209) do
 
   create_table "rsvps", force: :cascade do |t|
     t.string "name"
-    t.string "surname"
     t.string "email"
     t.string "attending"
     t.integer "guests_number"

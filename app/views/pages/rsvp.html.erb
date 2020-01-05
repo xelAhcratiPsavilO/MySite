@@ -16,10 +16,6 @@
           <label>Name</label>
         </div>
         <div class="inputBox">
-          <%= f.text_field :surname, :required => true%><br>
-          <label>Surname</label>
-        </div>
-        <div class="inputBox">
           <%= f.text_field :email, :required => true%><br>
           <label>Email</label>
         </div>
@@ -41,7 +37,7 @@
         </div>
         <div class="inputBox">
           <%= f.text_field :songs, :required => true%><br>
-          <label>Song suggestions for the DJ?</label>
+          <label>Song suggestions?</label>
         </div>
         <%= f.submit "Submit" %>
         <% end %>

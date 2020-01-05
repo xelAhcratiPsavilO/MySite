@@ -13,11 +13,13 @@ body
   left: 50%;
   transform: translate(-50%, 0%);
   width: 400px;
-  height: 800px;
+  height: 700px;
   padding: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(204, 146, 134);
+  margin-bottom: 10%;
+  background: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
 }
 .box h2
@@ -72,7 +74,7 @@ body
 {
   top: -18px;
   left: 0;
-  color: #03a9f4;
+  color: rgba(204, 146, 134);
   font-size: 12px;
 }
 .box input[type="submit"]
@@ -81,7 +83,7 @@ body
   border: none;
   outline: none;
   color: #fff;
-  background: #03a9f4;
+  background: rgba(204, 146, 134);
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
