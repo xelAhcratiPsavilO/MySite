@@ -8,7 +8,7 @@
     <h1>this is the rsvp page</h1>
     <br>
     <br>
-    <div class="box">
+    <div class="box" onsubmit="confirmSubmission()">
       <h2>RSVP</h2>
         <%= form_for :rsvp, url: rsvp_path do |f| %>
         <div class="inputBox">
@@ -46,5 +46,10 @@
         <%= f.submit "Submit" %>
         <% end %>
     </div>
+    <script>
+      function confirmSubmission() {
+        alert("The form was submitted");
+      }
+</script>
   </body>
 </html>
