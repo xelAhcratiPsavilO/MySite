@@ -28,11 +28,20 @@
   text-decoration: none;
  }
 
+ .home #photo-section {
+   background: url(home.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
+ .accommodations #photo-section {
+   background: url(accommodation.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
 #photo-section {
   text-align: center;
-  background: url(background.jpg);
-  background-position: center;
-  background-size: cover;
   border-radius: 0;
   color: white;
   height: 580px;
