@@ -10,9 +10,12 @@
 }
 
 .section {
+  font-size: 0.7rem;
   color: #e5e5e5;
   display: table;
   margin: auto;
+  height: 100%;
+  max-width: 100%;
  }
 
 .section:hover {
@@ -22,23 +25,23 @@
 
 #photo-section {
   text-align: center;
-  background: url(background.jpg) no-repeat;
+  background: url(background.jpg);
+  background-position: center;
   background-size: cover;
   border-radius: 0;
   color: white;
-  height: 700px;
+  height: 580px;
+  max-width: 100%;
 }
 
 #filter {
   background-color: rgba(204, 146, 134, 0.3);
-  height: 700px;
-}
-
-#navbar {
-  font-size: 11px;
+  height: 100%;
+  max-width: 100%;
 }
 
 .names {
+  font-family: "AsketExtended-Light";
   color: white;
 }
 
