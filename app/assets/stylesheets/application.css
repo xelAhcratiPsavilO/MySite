@@ -16,7 +16,25 @@
  }
 
  .accommodations #photo-section {
-   background: url(accommodation.jpg);
+   background: url(accommodations.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
+ .afterparty #photo-section {
+   background: url(afterparty.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
+ .rsvp #photo-section {
+   background: url(rsvp.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
+ .video #photo-section {
+   background: url(video.jpg);
    background-position: center;
    background-size: cover;
  }
