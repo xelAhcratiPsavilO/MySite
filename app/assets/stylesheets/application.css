@@ -17,7 +17,6 @@
 
  .accommodations #photo-section {
    background: url(accommodations.jpg);
-   background-position: center;
    background-size: cover;
  }
 
@@ -29,13 +28,11 @@
 
  .rsvp #photo-section {
    background: url(rsvp.jpg);
-   background-position: center;
    background-size: cover;
  }
 
  .video #photo-section {
    background: url(video.jpg);
-   background-position: center;
    background-size: cover;
  }
 
