@@ -17,6 +17,7 @@
 
  .accommodations #photo-section {
    background: url(accommodations.jpg);
+   background-position: center;
    background-size: cover;
  }
 
