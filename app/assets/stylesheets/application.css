@@ -9,6 +9,14 @@
   src: url(./fonts/AsketExtended-Light.ttf);
 }
 
+@media (max-width: 900px) {
+  html {
+    font-size: 0.7rem; }
+}
+@media (max-width: 600px) {
+  html { font-size: 0.5rem; }
+}
+
  .home #photo-section {
    background: url(home.jpg);
    background-position: center;
@@ -66,11 +74,20 @@
 .section {
   font-size: 0.7rem;
   color: rgba(333, 333, 333, 0.5);
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   display: table;
   margin: auto;
   height: 100%;
   max-width: 100%;
+ }
+
+ @media (max-width: 900px) {
+   .section {
+     letter-spacing: 2px; }
+ }
+ @media (max-width: 600px) {
+   .section {
+     letter-spacing: 1px; }
  }
 
 .section:hover {
