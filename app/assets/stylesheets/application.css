@@ -11,10 +11,14 @@
 
 @media (max-width: 900px) {
   html {
+    font-size: 0.8rem; }
+}
+@media (max-width: 650px) {
+  html {
     font-size: 0.7rem; }
 }
-@media (max-width: 600px) {
-  html { font-size: 0.5rem; }
+@media (max-width: 400px) {
+  html { font-size: 0.6rem; }
 }
 
  .home #photo-section {
@@ -37,11 +41,13 @@
 
  .rsvp #photo-section {
    background: url(rsvp.jpg);
+   background-position: center;
    background-size: cover;
  }
 
  .video #photo-section {
    background: url(video.jpg);
+   background-position: center;
    background-size: cover;
  }
 
@@ -84,10 +90,6 @@
  @media (max-width: 900px) {
    .section {
      letter-spacing: 2px; }
- }
- @media (max-width: 600px) {
-   .section {
-     letter-spacing: 1px; }
  }
 
 .section:hover {
