@@ -95,6 +95,11 @@
   max-width: 100%;
  }
 
+.section:hover {
+   color: white;
+   text-decoration: none;
+  }
+
 @media (max-width: 900px) {
   .section {
     letter-spacing: 1px; }
@@ -107,11 +112,6 @@
   .section {
     letter-spacing: 2px; }
 }
-
-.section:hover {
-  color: white;
-  text-decoration: none;
- }
 
 #greeting {
   font-family: "BergenSans-Bold";

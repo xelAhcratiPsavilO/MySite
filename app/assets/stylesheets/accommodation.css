@@ -5,7 +5,7 @@
 
 .content {
  font-family: "AsketExtended-Light";
- height: 50rem;
+ height: 60rem;
  position: relative;
 }
 
@@ -36,4 +36,19 @@
   width: 100%;
   max-width: 450px;
   height: auto;
+}
+
+.hotel {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0);
+  letter-spacing: 4px;
+  display: table;
+  margin: auto;
+  height: 100%;
+  max-width: 100%;
+ }
+
+.hotel:hover {
+   color: grey;
+   text-decoration: none;
 }
