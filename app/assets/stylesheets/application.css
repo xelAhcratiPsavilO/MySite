@@ -12,6 +12,10 @@
   font-family: "AsketExtended-Light";
   src: url(./fonts/AsketExtended-Light.ttf);
 }
+@font-face {
+  font-family: "AsketExtended-Light";
+  src: url(./fonts/Windlesham-Pro-Light.ttf);
+}
 
 @media (max-width: 900px) {
   html {
@@ -125,4 +129,8 @@
   display:flex;
   align-items: center;
   justify-content: center;
+ }
+
+ .content {
+  font-family: "AsketExtended-Light";
  }
