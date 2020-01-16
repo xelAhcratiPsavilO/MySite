@@ -131,6 +131,13 @@
   justify-content: center;
  }
 
+ #row2 {
+   background-color: rgba(204, 146, 134, 0.1);
+
+ }
+
  .content {
   font-family: "AsketExtended-Light";
+  height: 50rem;
+  position: relative;
  }

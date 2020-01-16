@@ -1,21 +1,4 @@
 
-@media (max-width: 900px) {
-  html {
-    font-size: 0.8rem; }
-}
-@media (max-width: 650px) {
-  html {
-    font-size: 0.7rem; }
-}
-@media (max-width: 400px) {
-  html { font-size: 0.6rem; }
-}
-
-.content {
-  height: 50rem;
-  position: relative;
-}
-
 .center {
   margin: 0;
   position: absolute;
@@ -24,6 +7,12 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.circle {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
 }
 
 #row2 {

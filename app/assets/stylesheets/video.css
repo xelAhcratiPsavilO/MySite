@@ -1,16 +1,4 @@
 
-@media (max-width: 900px) {
-  html {
-    font-size: 0.8rem; }
-}
-@media (max-width: 650px) {
-  html {
-    font-size: 0.7rem; }
-}
-@media (max-width: 400px) {
-  html { font-size: 0.6rem; }
-}
-
 body
 {
   margin: 0;
