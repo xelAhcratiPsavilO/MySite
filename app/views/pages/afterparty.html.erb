@@ -22,22 +22,44 @@
           We're going to Ibiza flying out on Sun, 24 May! If you would like to join, please let us know so that we can coordinate flights, accomodations, and activities as a group.
         </p>
       </div>
-
     </div>
     <div class="content" id="row2">
-      <%  %>
-  			<div class="rsvp">
-          <p class="new_guest">-</p>
-    			<p class="name">Guest name: <%=  %></p>
-    			<p class="email">Guest email: <%=  %></p>
-    			<p class="attending"><%=  %> is <%=  %> attending</p>
-    			<p class="guests_number"><%=  %> is coming with <%=  %></p>
-    			<p class="companions"><%=  %></p>
-    			<p class="dietary_restrictions">Dietary restrictions: <%=  %></p>
-    			<p class="songs">Songs: <%=  %></p>
-  			</div>
-  		<%  %>
-
+      <br>
+      <br>
+      <div class="box" onsubmit="confirmSubmission()">
+        <h2>RSVP</h2>
+          <%= form_for :rsvp, url: rsvp_path do |f| %>
+          <div class="inputBox">
+            <%= f.text_field :name, :required => true%>
+            <label>Name</label>
+          </div>
+          <div class="inputBox">
+            <%= f.text_field :email, :required => true%><br>
+            <label>Email</label>
+          </div>
+          <div class="inputBox">
+            <select-label>Are you attending?</select-label>
+            <%= f.select :attending, ['Yes','No'], :required => true%><br><br>
+          </div>
+          <div class="inputBox">
+            <%= f.number_field :guests_number, :required => true%><br>
+            <label>Number of guests</label>
+          </div>
+          <div class="inputBox">
+          <select-label>Please, list the guests</select-label>
+            <%= f.text_area :companions, :required => true%><br><br>
+          </div>
+          <div class="inputBox">
+            <%= f.text_field :dietary_restrictions, :required => true%><br>
+            <label>Any allergies or food restrictions?</label>
+          </div>
+          <div class="inputBox">
+            <%= f.text_field :songs, :required => true%><br>
+            <label>Song suggestions?</label>
+          </div>
+          <%= f.submit "Submit" %>
+          <% end %>
+      </div>
     </div>
   </body>
 </html>
