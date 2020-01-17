@@ -25,6 +25,11 @@ body
   border-radius: 0.625rem;
 }
 
+.afterparty .box {
+  top: 0%;
+
+}
+
 .box h2
 {
   margin: 0 0 1.85rem;
@@ -36,6 +41,11 @@ body
 .box .inputBox
 {
   position: relative;
+}
+
+.box .inputBox textarea
+{
+    width: 100%;
 }
 
 .box .inputBox input
