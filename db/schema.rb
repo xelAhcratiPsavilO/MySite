@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20191214223209) do
+ActiveRecord::Schema.define(version: 20200118130831) do
+
+  create_table "afterparties", force: :cascade do |t|
+    t.string "name"
+    t.string "number"
+    t.integer "days"
+    t.text "comment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "rsvps", force: :cascade do |t|
     t.string "name"
