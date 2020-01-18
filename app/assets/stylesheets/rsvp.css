@@ -87,8 +87,7 @@ body
   margin-bottom: 1.875;
 }
 
-.box .inputBox input:focus ~ label,
-.box .inputBox input:valid ~ label
+.box .inputBox input:focus ~ label
 {
   top: -1.125rem;
   left: 0;
