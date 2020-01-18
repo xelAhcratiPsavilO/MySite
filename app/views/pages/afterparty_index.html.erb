@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="index" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>rsvp</title>
+  </head>
+  <body>
+  <% @rsvps.each do |afterparty| %>
+    <div class="rsvp">
+      <p class="new_guest">-</p>
+      <p class="name">Guest name: <%= afterparty.name %></p>
+      <p class="phone">Guest phone number: <%= afterparty.number %></p>
+      <p class="days"><%= afterparty.name %> is staying <%= afterparty.days %></p>
+      <p class="comment"><%= afterparty.name %> says <%= afterparty.comment %></p>
+    </div>
+  <% end %>
+  </body>
+</html>
