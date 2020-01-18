@@ -13,7 +13,7 @@ class PagesController < ApplicationController
   end
 
   def create_afterparty
-    @afterparty = afterparty.new(afterparty_params)
+    @afterparty = Afterparty.new(afterparty_params)
     if @afterparty.save
       redirect_to action: 'home'
     else
