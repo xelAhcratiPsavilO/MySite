@@ -1,0 +1,2 @@
+class Afterparty < ApplicationRecord
+end
