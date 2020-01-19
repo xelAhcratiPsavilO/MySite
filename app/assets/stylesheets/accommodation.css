@@ -55,7 +55,7 @@
 
 .hotel
 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: rgba(0, 0, 0);
   letter-spacing: 4px;
   display: table;
@@ -68,4 +68,28 @@
 {
    color: grey;
    text-decoration: none;
+}
+
+@media (max-width: 900px)
+{
+  .hotel
+  {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 750px)
+{
+ .hotel
+ {
+   font-size: 0.8rem;
+ }
+}
+
+@media (max-width: 400px)
+{
+  .hotel
+  {
+    font-size: 0.7rem;
+  }
 }
