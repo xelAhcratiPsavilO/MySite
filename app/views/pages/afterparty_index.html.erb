@@ -5,13 +5,17 @@
     <title>rsvp</title>
   </head>
   <body>
+    <br>
+    <br>
+    <br>
+    <br>
   <% @afterparty.each do |afterparty| %>
-    <div class="rsvp">
-      <p class="new_guest">-</p>
-      <p class="name">Guest name: <%= afterparty.name %></p>
+    <div class="box">
+      <h5>
+      <p>Guest name: <%= afterparty.name %></p>
       <p class="phone">Guest phone number: <%= afterparty.number %></p>
       <p class="days"><%= afterparty.name %> is staying <%= afterparty.days %></p>
-      <p class="comment"><%= afterparty.name %> says <%= afterparty.comment %></p>
+      <p class="comment"><%= afterparty.name %> says <%= afterparty.comment %></p></h5>
     </div>
   <% end %>
   </body>

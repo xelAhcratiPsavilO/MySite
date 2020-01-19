@@ -38,6 +38,11 @@ body
   text-align: center;
 }
 
+.box h5
+{
+  color: #fff;
+}
+
 .box .inputBox
 {
   position: relative;
