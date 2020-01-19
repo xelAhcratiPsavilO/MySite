@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
   end
 
-  def accommodations
+  def accommodation
 
   end
 

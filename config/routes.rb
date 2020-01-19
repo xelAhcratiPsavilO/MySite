@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#home'
-  get 'accommodations' => 'pages#accommodations'
+  get 'accommodation' => 'pages#accommodation'
   get 'afterparty' => 'pages#afterparty'
   post 'afterparty' => 'pages#create_afterparty'
   get 'afterparty/index' => 'pages#afterparty_index'
