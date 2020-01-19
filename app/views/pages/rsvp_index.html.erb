@@ -5,16 +5,20 @@
     <title>rsvp</title>
   </head>
   <body>
+    <br>
+    <br>
+    <br>
+    <br>
     <% @rsvps.each do |rsvp| %>
-			<div class="rsvp">
-        <p class="new_guest">-</p>
+      <div class="box">
+        <h5>
   			<p class="name">Guest name: <%= rsvp.name %></p>
   			<p class="email">Guest email: <%= rsvp.email %></p>
   			<p class="attending"><%= rsvp.name %> is <%= rsvp.attending %> attending</p>
   			<p class="guests_number"><%= rsvp.name %> is coming with <%= rsvp.guests_number %></p>
   			<p class="companions"><%= rsvp.companions %></p>
   			<p class="dietary_restrictions">Dietary restrictions: <%= rsvp.dietary_restrictions %></p>
-  			<p class="songs">Songs: <%= rsvp.songs %></p>
+  			<p class="songs">Songs: <%= rsvp.songs %></p></h5>
 			</div>
 		<% end %>
   </body>
