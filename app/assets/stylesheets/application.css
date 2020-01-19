@@ -4,62 +4,84 @@
 @import "rsvp.css";
 @import "video.css";
 
-@font-face {
+@font-face
+{
   font-family: "BergenSans-Bold";
   src: url(./fonts/BergenSans-Bold.ttf);
 }
-@font-face {
+
+@font-face
+{
   font-family: "AsketExtended-Light";
   src: url(./fonts/AsketExtended-Light.ttf);
 }
-@font-face {
+
+@font-face
+{
   font-family: "AsketExtended-Light";
   src: url(./fonts/Windlesham-Pro-Light.ttf);
 }
 
-@media (max-width: 900px) {
-  html {
-    font-size: 0.8rem; }
-}
-@media (max-width: 750px) {
-  html {
-    font-size: 0.7rem; }
-}
-@media (max-width: 600px) {
-  html { font-size: 0.6rem; }
+@media (max-width: 900px)
+{
+  html
+  {
+    font-size: 0.8rem;
+  }
 }
 
- .home #photo-section {
-   background: url(home.jpg);
-   background-position: center;
-   background-size: cover;
- }
+@media (max-width: 750px)
+{
+  html
+  {
+    font-size: 0.7rem;
+  }
+}
 
- .accommodations #photo-section {
-   background: url(accommodations.jpg);
-   background-position: center;
-   background-size: cover;
- }
+@media (max-width: 600px)
+{
+  html
+  { font-size: 0.6rem;
+  }
+}
 
- .afterparty #photo-section {
-   background: url(afterparty.jpg);
-   background-position: center;
-   background-size: cover;
- }
+.home #photo-section
+{
+  background: url(home.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
- .rsvp #photo-section {
-   background: url(rsvp.jpg);
-   background-position: center;
-   background-size: cover;
- }
+.accommodations #photo-section
+{
+  background: url(accommodations.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
- .video #photo-section {
-   background: url(video.jpg);
-   background-position: center;
-   background-size: cover;
- }
+.afterparty #photo-section
+{
+  background: url(afterparty.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
-#photo-section {
+.rsvp #photo-section
+{
+  background: url(rsvp.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.video #photo-section
+{
+  background: url(video.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#photo-section
+{
   text-align: center;
   border-radius: 0;
   color: white;
@@ -67,25 +89,29 @@
   max-width: 100%;
 }
 
-#filter {
+#filter
+{
   background-color: rgba(204, 146, 134, 0.2);
   height: 100%;
   max-width: 100%;
 }
 
-.names {
+.names
+{
   font-family: "AsketExtended-Light";
   color: rgba(333, 333, 333, 0.7);
   letter-spacing: 1px;
 }
 
-.names:hover {
+.names:hover
+{
   color: white;
   letter-spacing: 1px;
   text-decoration: none;
 }
 
-.section {
+.section
+{
   font-size: 0.7rem;
   color: rgba(333, 333, 333, 0.5);
   letter-spacing: 4px;
@@ -93,36 +119,50 @@
   margin: auto;
   height: 100%;
   max-width: 100%;
- }
+}
 
-.section:hover {
+.section:hover
+{
    color: white;
    text-decoration: none;
+}
+
+@media (max-width: 900px)
+{
+  .section
+  {
+    letter-spacing: 1px;
   }
-
-@media (max-width: 900px) {
-  .section {
-    letter-spacing: 1px; }
-}
-@media (max-width: 750px) {
- .section {
-   letter-spacing: 2px; }
-}
-@media (max-width: 400px) {
-  .section {
-    letter-spacing: 2px; }
 }
 
-#greeting {
+@media (max-width: 750px)
+{
+ .section
+ {
+   letter-spacing: 2px;
+ }
+}
+
+@media (max-width: 400px)
+{
+  .section
+  {
+    letter-spacing: 2px;
+  }
+}
+
+#greeting
+{
   font-family: "BergenSans-Bold";
   height: 80%;
   width: 100%;
   display:flex;
   align-items: center;
   justify-content: center;
- }
+}
 
- #date {
+#date
+{
   font-family: "AsketExtended-Light";
   color: #e5e5e5;
   height: 0%;

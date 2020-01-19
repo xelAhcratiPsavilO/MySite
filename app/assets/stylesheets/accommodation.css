@@ -1,28 +1,42 @@
 
-#row2 {
+#row2
+{
   background-color: rgba(204, 146, 134, 0.1);
 }
 
-.content {
+.content
+{
  font-family: "AsketExtended-Light";
  height: 60rem;
  position: relative;
 }
 
-@media (max-width: 900px) {
-  .content {
-    font-size: 1rem; }
-}
-@media (max-width: 750px) {
- .content {
-   font-size: 1.2rem; }
-}
-@media (max-width: 400px) {
-  .content {
-    font-size: 1.1rem; }
+@media (max-width: 900px)
+{
+  .content
+  {
+    font-size: 1rem;
+  }
 }
 
-.center {
+@media (max-width: 750px)
+{
+ .content
+ {
+   font-size: 1.2rem;
+ }
+}
+
+@media (max-width: 400px)
+{
+  .content
+  {
+    font-size: 1.1rem;
+  }
+}
+
+.center
+{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -32,13 +46,15 @@
   text-align: center;
 }
 
-.circle {
+.circle
+{
   width: 100%;
   max-width: 450px;
   height: auto;
 }
 
-.hotel {
+.hotel
+{
   font-size: 1.2rem;
   color: rgba(0, 0, 0);
   letter-spacing: 4px;
@@ -46,9 +62,10 @@
   margin: auto;
   height: 100%;
   max-width: 100%;
- }
+}
 
-.hotel:hover {
+.hotel:hover
+{
    color: grey;
    text-decoration: none;
 }

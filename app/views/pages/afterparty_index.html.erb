@@ -9,14 +9,15 @@
     <br>
     <br>
     <br>
-  <% @afterparty.each do |afterparty| %>
-    <div class="box">
-      <h5>
-      <p>Guest name: <%= afterparty.name %></p>
-      <p class="phone">Guest phone number: <%= afterparty.number %></p>
-      <p class="days"><%= afterparty.name %> is staying <%= afterparty.days %></p>
-      <p class="comment"><%= afterparty.name %> says <%= afterparty.comment %></p></h5>
-    </div>
-  <% end %>
+    <% @afterparty.each do |afterparty| %>
+      <div class="box">
+        <h5>
+          <p>Guest name: <%= afterparty.name %></p>
+          <p class="phone">Guest phone number: <%= afterparty.number %></p>
+          <p class="days"><%= afterparty.name %> is staying <%= afterparty.days %></p>
+          <p class="comment"><%= afterparty.name %> says <%= afterparty.comment %></p>
+        </h5>
+      </div>
+    <% end %>
   </body>
 </html>

@@ -9,7 +9,7 @@ body
 
 .box
 {
- font-family: "AsketExtended-Light";
+  font-family: "AsketExtended-Light";
   position: relative;
   top: 50%;
   left: 50%;
@@ -25,9 +25,9 @@ body
   border-radius: 0.625rem;
 }
 
-.afterparty .box {
+.afterparty .box
+{
   top: 0%;
-
 }
 
 .box h2
