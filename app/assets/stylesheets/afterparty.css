@@ -4,6 +4,14 @@
   background-color: rgba(204, 146, 134, 0.1);
 }
 
+@media (max-width: 400px)
+{
+  .afterparty .content
+  {
+    height: 50rem;
+  }
+}
+
 .content
 {
  font-family: "AsketExtended-Light";
