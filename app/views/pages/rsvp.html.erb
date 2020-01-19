@@ -27,17 +27,18 @@
           <label>Number of guests</label>
         </div>
         <div class="inputBox">
-        <select-label>Please, list the guests</select-label>
+        <select-label>Please list the guests</select-label>
           <%= f.text_area :companions, :required => true%><br><br>
         </div>
         <div class="inputBox">
-          <%= f.text_field :dietary_restrictions, :required => false%><br>
+          <%= f.text_field :dietary_restrictions, :required => true%><br>
           <label>Any allergies or food restrictions?</label>
         </div>
         <div class="inputBox">
-          <%= f.text_field :songs, :required => false%><br>
-          <label>Song suggestions?</label>
+        <select-label>Song suggestions?</select-label>
+          <%= f.text_area :songs, :required => false%><br>
         </div>
+        <br>
         <%= f.submit "Submit" %>
         <% end %>
     </div>
