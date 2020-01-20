@@ -1,9 +1,7 @@
 @import "accommodation.css";
 @import "afterparty.css";
-@import "afterparty_index.css";
 @import "home.css";
 @import "rsvp.css";
-@import "rsvp_index.css";
 @import "video.css";
 
 @font-face
@@ -43,7 +41,32 @@
 @media (max-width: 600px)
 {
   html
-  { font-size: 0.9rem;
+  {
+    font-size: 0.9rem;
+  }
+  #large-view
+  {
+     display: none;
+  }
+  #small-view
+  {
+    display: ;
+  }
+}
+
+@media (min-width: 600px)
+{
+  html
+  {
+    font-size: 0.9rem;
+  }
+  #large-view
+  {
+     display: ;
+  }
+  #small-view
+  {
+    display: none;
   }
 }
 
