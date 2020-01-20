@@ -1,7 +1,9 @@
 @import "accommodation.css";
 @import "afterparty.css";
+@import "afterparty_index.css";
 @import "home.css";
 @import "rsvp.css";
+@import "rsvp_index.css";
 @import "video.css";
 
 @font-face
@@ -96,6 +98,30 @@
   max-width: 100%;
 }
 
+.home #filter
+{
+  background-color: rgba(204, 146, 134, 0.2);
+  height: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(rgba(204, 146, 134, 0.2) 1%, rgba(204, 146, 134, 0));
+}
+
+.accommodation #filter
+{
+  background-color: rgba(204, 146, 134, 0.2);
+  height: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(rgba(204, 146, 134, 0.1) 1%, rgba(204, 146, 134, 0));
+}
+
+.index #filter
+{
+  background-color: rgba(204, 146, 134, 0.2);
+  height: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(rgba(204, 146, 134, 1), rgba(204, 146, 134, 0));
+}
+
 .names
 {
   font-family: "AsketExtended-Light";
@@ -113,7 +139,7 @@
 .section
 {
   font-size: 0.7rem;
-  color: rgba(333, 333, 333, 0.5);
+  color: rgba(333, 333, 333, 0.6);
   letter-spacing: 4px;
   display: table;
   margin: auto;
