@@ -56,7 +56,7 @@
 .hotel
 {
   font-size: 1.1rem;
-  color: rgba(0, 0, 0);
+  color: rgba(0, 0, 0, 100);
   letter-spacing: 4px;
   display: table;
   margin: auto;
