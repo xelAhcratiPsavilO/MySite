@@ -50,7 +50,7 @@
   }
   #small-view
   {
-    display: ;
+    display: flex;
   }
 }
 
@@ -62,7 +62,7 @@
   }
   #large-view
   {
-     display: ;
+     display: flex;
   }
   #small-view
   {
