@@ -9,6 +9,11 @@
     <br>
     <br>
     <br>
+    <div class="box">
+      <h5>
+  		    <%= @count %> Responses:
+      </h5>
+    </div>
     <% @rsvps.each do |rsvp| %>
       <div class="box">
         <h5>
@@ -22,10 +27,5 @@
         </h5>
 			</div>
 		<% end %>
-    <div class="box">
-      <h5>
-  		    Responses: <%= @count %>
-
-      </h5>
   </body>
 </html>
