@@ -40,6 +40,7 @@ class PagesController < ApplicationController
 
   def rsvp_index
     @rsvps = Rsvp.all
+    @count = Rsvp.all.size
   end
 
   def video
