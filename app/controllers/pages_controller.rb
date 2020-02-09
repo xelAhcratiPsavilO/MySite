@@ -42,6 +42,8 @@ class PagesController < ApplicationController
   def rsvp_index
     @rsvps = Rsvp.all
     @rsvp_count = Rsvp.all.size
+    @yes = Rsvp.where("attending like ?", "%Yes%").size
+    @nos = Rsvp.where("attending like ?", "%No%").size
   end
 
   def video
