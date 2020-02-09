@@ -22,7 +22,7 @@ class PagesController < ApplicationController
   end
 
   def afterparty_index
-    @afterparty = Afterparty.all
+    @afterparties = Afterparty.all
     @afterparty_count = Afterparty.all.size
   end
 
