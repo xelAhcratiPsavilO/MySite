@@ -23,6 +23,7 @@ class PagesController < ApplicationController
 
   def afterparty_index
     @afterparty = Afterparty.all
+    @afterparty_count = Afterparty.all.size
   end
 
   def rsvp
@@ -40,7 +41,7 @@ class PagesController < ApplicationController
 
   def rsvp_index
     @rsvps = Rsvp.all
-    @count = Rsvp.all.size
+    @rsvp_count = Rsvp.all.size
   end
 
   def video
