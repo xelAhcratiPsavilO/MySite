@@ -30,4 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    application:
+      greeting: "Celebrate with us!"
+      date: "Valencia, 23 May 2020"
