@@ -68,7 +68,9 @@
             <p><%= t ".date" %></p>
           </div>
         </section>
-
+        Language:
+        <%= link_to_unless_current "English", locale: "en " %> |
+        <%= link_to_unless_current "Español", locale: "es " %>
       </div>
     </div>
     <%= yield %>
