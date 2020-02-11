@@ -1,0 +1,5 @@
+es:
+  layouts:
+    application:
+      greeting: "Celebralo con nosotros!"
+      date: "Valencia, 23 de Mayo deg 2020"
