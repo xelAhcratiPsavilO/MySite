@@ -1,11 +1,11 @@
 es:
   layouts:
     application:
-      greeting: "Celébralo con nosotros!"
-      date: "Valencia, 23 de Mayo del 2020"
-      language: "Idioma:"
       rsvp: "ASISTENCIA"
       accommodation: "ALOJAMIENTO"
       afterparty: "VIAJE"
       stay: "HOTEL"
       trip: "VIAJE"
+      greeting: "Celébralo con nosotros!"
+      date: "Valencia, 23 de Mayo del 2020"
+      language: "Idioma:"
