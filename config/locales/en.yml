@@ -34,3 +34,9 @@ en:
     application:
       greeting: "Celebrate with us!"
       date: "Valencia, 23 May 2020"
+      language: "Language:"
+      rsvp: "RSVP"
+      accommodation: "ACCOMMODATION"
+      afterparty: "AFTERPARTY"
+      stay: "STAY"
+      trip: "TRIP"
