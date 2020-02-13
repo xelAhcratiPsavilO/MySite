@@ -49,3 +49,9 @@ en:
       dietary_restrictions: "Any allergies or food restrictions?"
       songs: "Song suggestions?"
       submit: "Submit"
+    accommodation:
+      transportion: "The Transportation"
+      map: "View Map"
+      transportation_content: "For your convenience, we have arranged transportion to and from the venue. The shuttle will collect guests at the city center pick-up location and depart at 8:15PM. Shuttle service back to city center will start at midnight in intervals of 60 minutes (12:00, 1:00, 2:00, etc.). The final shuttle will be determined by how long we keep the party going!"
+      accommodation: "The Accommodations"
+      accommodation_content: "For our out of town guests, here are some recommendations for accomodations that are both centrally located and close to the shuttle pick-up location. The city hall plaza is also well-connected to public transportation if you are interested in exploring Valencia. Alternatively there are plenty of other hotels and AirBnBs in the local area. Please do let us know if you need any assistance with booking."

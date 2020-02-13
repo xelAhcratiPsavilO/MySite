@@ -18,3 +18,9 @@ es:
       dietary_restrictions: "Alguna alergia o restricción alimenticia?"
       songs: "Sugerencias de canciones"
       submit: "Enviar"
+    accommodation:
+      transportion: "El Transporte"
+      map: "Mapa"
+      transportation_content: "Por comodiad, hemos reservado un autobús privado que os lleve y os recoja de la Masia. El punto de encuentro es el Ayuntamiento de Valencia y la hora de salida (pendiente de confirmación) será las 20:15. El autobús de vuelta tendrá un servicio regular a partir de media noche. La salida del último autobús dependerá de lo que dure la fiesta, hasta que el cuerpo aguante!"
+      accommodation: "El Alojamiento"
+      accommodation_content: "Para nuestros invitados de fuera de Valencia, aquí hay algunas recomendaciones que quedan céntricas y están cerca del punto de encuentro para coger el autobús. Si quieres visitar la ciudad, esta es una buena localización para moverte a pie y explorar Valencia. Si lo prefieres, también puedes encontrar muchas otras opciones in internet. Si necesitas cualquier asistencia para hacer la reserva, no dudes en decirnoslo."
