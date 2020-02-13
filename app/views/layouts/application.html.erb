@@ -68,9 +68,13 @@
             <p><%= t('.date') %></p>
           </div>
         </section>
-        <%= t('.language') %>
-        <%= link_to_unless_current "English", locale: "en" %> |
-        <%= link_to_unless_current "Español", locale: "es" %>
+        <section class="animated fadeInUp" time="3s">
+          <div id="date" class="date">
+            <%= t('.language') %>
+            <%= link_to_unless_current "English", locale: "en" %> |
+            <%= link_to_unless_current "Español", locale: "es" %>
+          </div>
+        </section>
       </div>
     </div>
     <%= yield %>
