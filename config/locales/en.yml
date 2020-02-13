@@ -40,3 +40,12 @@ en:
       greeting: "Celebrate with us!"
       date: "Valencia, 23 May 2020"
       language: "Language:"
+  pages:
+    rsvp:
+      name: "Name"
+      attending: "Are you attending?"
+      guests_number: "Number of guests"
+      companions: "Please list the guests"
+      dietary_restrictions: "Any allergies or food restrictions?"
+      songs: "Song suggestions?"
+      submit: "Submit"

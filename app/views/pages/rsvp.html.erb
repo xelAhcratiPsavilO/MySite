@@ -12,34 +12,34 @@
         <%= form_for :rsvp, url: rsvp_path do |f| %>
         <div class="inputBox">
           <%= f.text_field :name, :required => true%>
-          <label>Name</label>
+          <label><%= t('.name') %></label>
         </div>
         <div class="inputBox">
           <%= f.text_field :email, :required => true%><br>
           <label>Email</label>
         </div>
         <div class="inputBox">
-          <select-label>Are you attending?</select-label>
+          <select-label><%= t('.attending') %></select-label>
           <%= f.select :attending, ['Yes','No'], :required => true%><br><br>
         </div>
         <div class="inputBox">
           <%= f.text_field :guests_number, :required => true%><br>
-          <label>Number of guests</label>
+          <label><%= t('.guests_number') %></label>
         </div>
         <div class="inputBox">
-        <select-label>Please list the guests</select-label>
+        <select-label><%= t('.companions') %></select-label>
           <%= f.text_area :companions, :required => true%><br><br>
         </div>
         <div class="inputBox">
           <%= f.text_field :dietary_restrictions, :required => true%><br>
-          <label>Any allergies or food restrictions?</label>
+          <label><%= t('.dietary_restrictions') %></label>
         </div>
         <div class="inputBox">
-        <select-label>Song suggestions?</select-label>
+        <select-label><%= t('.songs') %></select-label>
           <%= f.text_area :songs, :required => false%><br>
         </div>
         <br>
-        <%= f.submit "Submit" %>
+        <%= f.submit t('.submit') %>
         <% end %>
     </div>
     <script>
