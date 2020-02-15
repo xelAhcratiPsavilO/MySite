@@ -28,3 +28,8 @@ es:
     home:
       venue: "El Banquete"
       map: "Mapa"
+      schedule: "El Horario"
+      cocktails: "20:30 - Cocktail de Bienvenida"
+      dinner: "22:00 - Cena"
+      fiesta: "00:00 - Fiesta"
+      schedule_content: ""
