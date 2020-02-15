@@ -20,7 +20,7 @@
         </div>
         <div class="inputBox">
           <select-label><%= t('.attending') %></select-label>
-          <%= f.select :attending, ['Yes','No'], :required => true%><br><br>
+          <%= f.select :attending, [t('.yes'),'No'], :required => true%><br><br>
         </div>
         <div class="inputBox">
           <%= f.text_field :guests_number, :required => true%><br>
