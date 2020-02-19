@@ -11,8 +11,7 @@ Rails.application.routes.draw do
     get 'rsvp/index' => 'pages#rsvp_index'
     get 'video' => 'pages#video'
   end
-  match '/*path/*locale', to: redirect("/#{I18n.default_locale}/%{path}"), :via => [:get, :post]
-  match '*path', to: redirect("/#{I18n.default_locale}/%{path}"), :via => [:get, :post]
-  match '', to: redirect("/#{I18n.default_locale}"), :via => [:get, :post]
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  match '/*path/*locale', to: redirect("/#{I18n.locale}/%{path}"), :via => [:get, :post]
+  match '*path', to: redirect("/#{I18n.locale}/%{path}"), :via => [:get, :post]
+  match '', to: redirect("/#{I18n.locale}"), :via => [:get, :post]
 end
