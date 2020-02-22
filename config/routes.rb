@@ -11,7 +11,6 @@ Rails.application.routes.draw do
     get 'rsvp/index' => 'pages#rsvp_index'
     get 'video' => 'pages#video'
   end
-  match '/*path/*locale', to: redirect("/#{I18n.locale}/%{path}"), :via => [:get, :post]
   match '*path', to: redirect("/#{I18n.locale}/%{path}"), :via => [:get, :post]
   match '', to: redirect("/#{I18n.locale}"), :via => [:get, :post]
 end
