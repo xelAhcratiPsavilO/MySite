@@ -23,36 +23,36 @@
         <section class="animated fadeInDown" time="3s">
         <div class="row" id="large-view">
           <div class="col-2">
-            <a class="section" href='/rsvp'><%= t('.rsvp') %></a>
+            <%= link_to t('.rsvp'), rsvp_path, class: 'section' %>
           </div>
           <div class="col-2">
-            <a class="section" href='/accommodation'><%= t('.accommodation') %></a>
+            <%= link_to t('.accommodation'), accommodation_path, class: 'section' %>
           </div>
           <div class="col-4">
-            <a class="names" href='/'><h4>Christina & Alex</h4></a>
+            <h4><%= link_to 'Christina & Alex', root_path, class: 'names' %></h4>
           </div>
           <div class="col-2">
-            <a class="section" href='/afterparty'><%= t('.afterparty') %></a>
+            <%= link_to t('.afterparty'), afterparty_path, class: 'section' %>
           </div>
           <div class="col-2">
-            <a class="section" href='/video'>VIDEO</a>
+            <%= link_to 'VIDEO', video_path, class: 'section' %>
           </div>
         </div>
         <div class="row" id="small-view">
           <div class="col-2">
-            <a class="section" href='/rsvp'>RSVP</a>
+            <%= link_to 'RSVP', rsvp_path, class: 'section' %>
           </div>
           <div class="col-2">
-            <a class="section" href='/accommodation'><%= t('.stay') %></a>
+            <%= link_to t('.stay'), accommodation_path, class: 'section' %>
           </div>
           <div class="col-4">
-            <a class="names" href='/'><h4>Christina & Alex</h4></a>
+            <h4><%= link_to 'Christina & Alex', root_path, class: 'names' %></h4>
           </div>
           <div class="col-2">
-            <a class="section" href='/afterparty'><%= t('.trip') %></a>
+            <%= link_to t('.trip'), afterparty_path, class: 'section' %>
           </div>
           <div class="col-2">
-            <a class="section" href='/video'>VIDEO</a>
+            <%= link_to 'VIDEO', video_path, class: 'section' %>
           </div>
         </div>
       </section>
